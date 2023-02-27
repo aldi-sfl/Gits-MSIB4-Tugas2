@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="skill.css" />
+    <link rel="stylesheet" href="pendidikan.css" />
 
     <link rel="shortcut icon" type="png" href="img/logo.png" />
 
@@ -101,16 +103,97 @@
 
         <div class="content-skill" id="skill">
           <h1 class="text">Kemampuan</h1>
+          <div class="main-top"></div>
+          <div class="users">
+            <div class="card">
+              <i class="fa-brands fa-html5 icon-skill"></i>
+              <h4>Html</h4>
+              <p>Tahap belajar</p>
+              <div class="per">
+                <table>
+                  <tr>
+                    <td><span>70%</span></td>
+                  </tr>
+                  <tr>
+                    <td>Pemahaman</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-css3-alt icon-skill"></i>
+              <h4>Css</h4>
+              <p>Tahap belajar</p>
+              <div class="per">
+                <table>
+                  <tr>
+                    <td><span>60%</span></td>
+                  </tr>
+                  <tr>
+                    <td>Pemahaman</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-php icon-skill"></i>
+              <h4>PHP</h4>
+              <p>Tahap belajar</p>
+              <div class="per">
+                <table>
+                  <tr>
+                    <td><span>50%</span></td>
+                  </tr>
+                  <tr>
+                    <td>Pemahaman</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-laravel icon-skill"></i>
+              <h4>Laravel</h4>
+              <p>Tahap belajar</p>
+              <div class="per">
+                <table>
+                  <tr>
+                    <td><span>30%</span></td>
+                  </tr>
+                  <tr>
+                    <td>Pemahaman</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iure unde ipsum ea eos, ducimus excepturi recusandae, veritatis optio delectus aperiam quas nisi quod. Minus nostrum vero
-          deserunt veniam consequuntur id tempore facere saepe, corrupti dolorum numquam ullam ea amet fugit voluptatem illum repellat debitis in quis voluptate. At, nam ipsa soluta dignissimos
-          voluptatibus iste odio? Corporis hic assumenda officiis, doloribus possimus excepturi pariatur ipsam odit nostrum debitis vero officia voluptatibus fugiat, dicta quasi sapiente in doloremque
-          magnam omnis. Sapiente, dignissimos quo nisi, iure ratione optio quia illo aspernatur commodi excepturi reprehenderit rem asperiores maiores doloribus non alias! Soluta, tempora.
-        </p>
 
         <div class="content-exp" id="sekolah">
           <h1 class="text">Pendidikan</h1>
+          <div class="conntainer">
+            <div class="education-item">
+              <div class="education-year">2014 - 2017</div>
+              <div class="education-details">
+                <h3 class="education-title">SMP N 2 Sokaraja</h3>
+                <br />
+              </div>
+            </div>
+            <div class="education-item">
+              <div class="education-year">2017 - 2020</div>
+              <div class="education-details">
+                <h3 class="education-title">SMK N 1 Banyumas</h3>
+                <p class="education-description">Jurusan Multimedia</p>
+                <br />
+              </div>
+            </div>
+            <div class="education-item">
+              <div class="education-year">2020 - Sekarang</div>
+              <div class="education-details">
+                <h3 class="education-title">Universita Amikom Purwokerto</h3>
+                <p class="education-description">Informatika</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="contact" id="contac">
