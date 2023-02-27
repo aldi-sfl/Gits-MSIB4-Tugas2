@@ -96,13 +96,14 @@
           <h1 class="home-text">Aldi Salfandi</h1>
         </div>
         <div class="content-home">
-          <p>Saya adalah Aldi Salfandi kelahiran tahun 2002. Saya berasal dan tinggal di Banyumas.</p>
+          <p>halo perkenalkan saya Aldi Salfandi kelahiran tahun 2002. Saya berasal dan tinggal di Banyumas.</p>
           <p>saya saat ini sedang menempuh studi di Universitas Amikom Purwokerto</p>
           <!-- <p id="result"></p> -->
         </div>
 
         <div class="content-skill" id="skill">
           <h1 class="text">Kemampuan</h1>
+          <br />
           <div class="main-top"></div>
           <div class="users">
             <div class="card">
@@ -142,7 +143,7 @@
               <div class="per">
                 <table>
                   <tr>
-                    <td><span>50%</span></td>
+                    <td><span>30%</span></td>
                   </tr>
                   <tr>
                     <td>Pemahaman</td>

@@ -380,6 +380,7 @@ body.dark .home .text {
 }
 
 .home .content-home {
+  margin-bottom: 120px;
   padding-top: 20px;
   text-align: center;
   /* background-color: brown; */
@@ -391,18 +392,24 @@ body.dark .home .text {
   /* background-color: #707070; */
 }
 
-body.dark .content-skill {
-  color: var(--text-color);
+body.dark .card {
+  color: var(--primary-color);
 }
 
 .home .content-exp {
-  padding-top: 30px;
+  margin: 15vmax;
   text-align: justify;
-  /* background-color: cadetblue; */
+  padding: 20px;
+  background-color: var(--primary-color-light);
 }
 
-body.dark .content-exp {
-  color: var(--text-color);
+/* body.dark .content-exp {
+  color: var(--primary-color);
+} */
+
+body.dark .education-item {
+  color: var(--primary-color-light);
+  z-index: 100;
 }
 
 table {
