@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+
     <link rel="shortcut icon" type="png" href="img/logo.png" />
 
     <!----===== link icon yang digunakan ===== -->
@@ -34,7 +35,8 @@
         <div class="menu">
           <li class="search-box">
             <i class="bx bx-search icon"></i>
-            <input type="text" placeholder="Search..." />
+            <input type="text" placeholder="Search..." id="search-input" />
+            <i class="fa-solid fa-right-to-bracket icon send" onclick="searchTextt()"></i>
           </li>
 
           <ul class="menu-links">
@@ -53,27 +55,21 @@
             </li>
 
             <li class="nav-link">
-              <a href="#">
+              <a href="#sekolah">
                 <i class="fa-solid fa-school icon"></i>
                 <span class="text nav-text">Pendidikan</span>
               </a>
             </li>
 
             <li class="nav-link">
-              <a href="#">
+              <a href="#contac">
                 <i class="fa-solid fa-envelope icon"></i>
                 <span class="text nav-text">Kontak</span>
               </a>
             </li>
-
-            <li class="nav-link">
-              <a href="#">
-                <i class="fa-sharp fa-solid fa-circle-info icon"></i>
-                <span class="text nav-text">Informasi</span>
-              </a>
-            </li>
           </ul>
         </div>
+        <p class="text tanggal"><?php include 'data.php'; tanggal() ?></p>
 
         <div class="bottom-content">
           <li class="mode">
@@ -94,60 +90,61 @@
     <section class="home">
       <div class="container">
         <div class="text">
-          <img class="logo-web img-fluid" src="img/mei.png" alt="" />
+          <img class="logo-web img-fluid" src="img/foto.jpg" alt="" />
           <h1 class="home-text">Aldi Salfandi</h1>
         </div>
         <div class="content-home">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum neque amet aperiam laudantium, tempora nam, officia blanditiis ipsam dolorem fuga architecto, quo modi accusantium repellendus.
-            Explicabo minus officia, quae consequuntur totam doloremque ducimus nobis velit quod error! Earum pariatur necessitatibus excepturi, delectus sunt eaque aliquam velit deleniti eos vero
-            praesentium possimus eveniet tempora, amet porro corporis repellendus, ipsum facere minima maxime dolorum doloremque, natus rem aperiam ratione labore! Odio, harum qui? Placeat suscipit
-            esse eos corrupti expedita!
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima asperiores voluptates repudiandae incidunt delectus pariatur quaerat veritatis animi omnis voluptatum! Architecto voluptate
-            facilis doloremque similique necessitatibus incidunt, at aperiam labore! Saepe esse molestiae voluptatem odit quia non recusandae atque repellendus rerum, quaerat asperiores doloribus
-            similique impedit perspiciatis dolorem, sed consectetur?
-          </p>
+          <p>Saya adalah Aldi Salfandi kelahiran tahun 2002. Saya berasal dan tinggal di Banyumas.</p>
+          <p>saya saat ini sedang menempuh studi di Universitas Amikom Purwokerto</p>
+          <!-- <p id="result"></p> -->
         </div>
 
         <div class="content-skill" id="skill">
           <h1 class="text">Kemampuan</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, placeat quod. Inventore enim nostrum soluta qui! Exercitationem harum accusamus distinctio modi laboriosam debitis is ipsa,
-            deserunt aperiam odit? Doloremque aliquid hic quasi cumque repudiandae voluptatem quibusdam iure animi quaerat voluptates quia assumenda magni perspiciatis id expedita cum deleniti
-            explicabo, non possimus sit.
-          </p>
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iure unde ipsum ea eos, ducimus excepturi recusandae, veritatis optio delectus aperiam quas nisi quod. Minus nostrum vero
+          deserunt veniam consequuntur id tempore facere saepe, corrupti dolorum numquam ullam ea amet fugit voluptatem illum repellat debitis in quis voluptate. At, nam ipsa soluta dignissimos
+          voluptatibus iste odio? Corporis hic assumenda officiis, doloribus possimus excepturi pariatur ipsam odit nostrum debitis vero officia voluptatibus fugiat, dicta quasi sapiente in doloremque
+          magnam omnis. Sapiente, dignissimos quo nisi, iure ratione optio quia illo aspernatur commodi excepturi reprehenderit rem asperiores maiores doloribus non alias! Soluta, tempora.
+        </p>
+
+        <div class="content-exp" id="sekolah">
+          <h1 class="text">Pendidikan</h1>
         </div>
 
-        <div class="content-exp">
-          <h1 class="text">Pendidikan</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, quis facere inventore accusantium eum deserunt voluptas natus deleniti? Fugit odio reprehenderit molestiae blanditiis,
-            repellendus iusto, rerum mollitia tenetur possimus voluptatum nostrum, iste voluptatem quia? Iure ullam error, blanditiis exercitationem ab expedita doloremque. Delectus, dolor animi
-            blanditiis accusamus in dolorem sequi est corporis. Vitae cumque beatae cupiditate ad obcaecati non aut quo voluptatum dolorum, suscipit ipsa commodi quasi tempore placeat dolores. Nemo
-            nam fuga deserunt possimus numquam consectetur cum maxime veritatis? Pariatur tempora, ducimus quisquam dolorum, soluta quae consectetur aperiam magnam nostrum accusamus autem laudantium
-            illum perspiciatis laboriosam, itaque aliquid? Ratione!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus illum quibusdam ducimus reiciendis quae sapiente quod consectetur repellendus minus. Molestias sed ipsum, libero eum
-            officia repellendus nostrum corporis laborum accusamus, amet iure expedita impedit! Voluptas, quaerat? Veritatis distinctio quia non, illum id minus totam explicabo praesentium
-            consequuntur maiores laborum quae odit omnis quidem obcaecati temporibus pariatur nulla. Ipsa qui et culpa tempora sint enim perspiciatis corrupti ad, pariatur placeat quo animi nihil,
-            laboriosam, illo labore quas tenetur sapiente ut iste! Nulla delectus at vitae accusamus suscipit molestias voluptate similique dolorum libero, eveniet, doloremque sunt, quas quibusdam
-            ratione cumque consectetur deserunt.
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id voluptate nesciunt sit soluta laudantium! Dolore, iusto! Fugit, sequi illo animi sed veritatis facere laborum necessitatibus
-            eum quisquam laudantium quo maxime tenetur est voluptates aliquid possimus dolore officia nam modi totam voluptatibus blanditiis? Reiciendis delectus totam tempora in quidem, provident
-            libero pariatur ratione nulla, et nisi reprehenderit. Doloremque sed neque ipsam tenetur facilis. Earum voluptatum voluptas fugit rem molestias accusantium perspiciatis dolorum iusto
-            facere perferendis repellendus similique animi dignissimos asperiores cumque a, quis dolorem eaque quas nisi magnam debitis suscipit. Ut?
-          </p>
+        <div class="contact" id="contac">
+          <h1 class="text">Contact</h1>
+          <form action="#" method="post">
+            <table>
+              <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name" required /></td>
+              </tr>
+              <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="text" id="email" name="email" required /></td>
+              </tr>
+              <tr>
+                <td><label for="message">Message</label></td>
+                <td><textarea id="message" name="message" required></textarea></td>
+              </tr>
+              <tr>
+                <td></td>
+
+                <td>
+                  <button type="submit" class="btn btn-primary btn-sm" id="submit-btn"><i class="bx bx-mail-send"></i> Submit</button>
+                </td>
+              </tr>
+            </table>
+          </form>
         </div>
       </div>
       <!-- div container  -->
-      <a href="#"><i class="fa-solid fa-arrow-up-long icon-up"></i></a>
     </section>
     <!-- section home -->
+
     <script src="script.js"></script>
+    <a href="#"><i class="fa-solid fa-arrow-up-long icon-up"></i></a>
   </body>
 </html>

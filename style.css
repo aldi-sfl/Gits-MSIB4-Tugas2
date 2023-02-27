@@ -8,6 +8,22 @@
   scrollbar-width: thin;
 }
 
+/* ------------------------- */
+/* atribut style search function */
+.highlight {
+  background-color: yellow;
+  display: inline-block;
+  padding: 2px;
+  margin: -2px;
+}
+.blocked {
+  display: inline-block;
+  padding: 2px;
+  margin: -2px;
+  color: #ddd;
+  background-color: #eee;
+}
+/* ------------------------- */
 :root {
   --body-color: #d6d9e2;
   --sidebar-color: #fff;
@@ -111,6 +127,12 @@ a .icon-up.hide {
   transition: var(--tran-03);
 }
 
+.sidebar .tanggal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .sidebar .text {
   font-size: 1rem;
   font-weight: 500;
@@ -192,6 +214,10 @@ body.dark .sidebar header .toggle {
   background-color: var(--primary-color-light);
   cursor: pointer;
   transition: var(--tran-05);
+}
+
+.sidebar.close .send {
+  opacity: 0;
 }
 
 .sidebar li.search-box input {
@@ -307,11 +333,10 @@ body.dark .switch::before {
 }
 
 .home {
-  position: absolute;
-  top: 0;
+  position: relative;
   top: 0;
   left: 250px;
-  height: 100%;
+  height: 100vh;
   width: calc(100% - 250px);
   background-color: var(--body-color);
   transition: var(--tran-05);
@@ -343,7 +368,7 @@ body.dark .home .text {
   max-height: 50vmin;
   border-color: var(--primary-color);
   border-style: solid;
-  border-width: 2vmin;
+  border-width: 1.5vmin;
   border-radius: 100%;
   float: none;
   justify-content: center;
@@ -355,13 +380,15 @@ body.dark .home .text {
 }
 
 .home .content-home {
-  padding-top: 30px;
-  text-align: justify;
-  background-color: brown;
+  padding-top: 20px;
+  text-align: center;
+  /* background-color: brown; */
 }
 
 .home .content-skill {
-  background-color: #707070;
+  padding-top: 30px;
+  text-align: justify;
+  /* background-color: #707070; */
 }
 
 body.dark .content-skill {
@@ -369,9 +396,71 @@ body.dark .content-skill {
 }
 
 .home .content-exp {
-  background-color: cadetblue;
+  padding-top: 30px;
+  text-align: justify;
+  /* background-color: cadetblue; */
 }
 
 body.dark .content-exp {
+  color: var(--text-color);
+}
+
+table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.bx {
+  font-size: larger;
+}
+
+.contact {
+  margin: 15vmax;
+  padding: 20px;
+  background-color: var(--toggle-color);
+}
+
+body.dark .contact {
+  background-color: var(--primary-color);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  th,
+  td {
+    display: block;
+    width: 100%;
+  }
+}
+input[type="text"] {
+  background-color: #f5f5f5;
+}
+
+textarea[id="message"] {
+  background-color: #f5f5f5;
+}
+
+body.dark table label {
   color: var(--text-color);
 }
